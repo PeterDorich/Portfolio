@@ -1,3 +1,4 @@
 Clean Project repo for Portfolio
 
---This will include re-uploads of my projects
+--This will hold my portfolio itself, and link to other repos containing my projects
+
