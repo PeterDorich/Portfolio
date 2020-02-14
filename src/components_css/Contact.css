@@ -1,0 +1,71 @@
+/******************************************************************************
+* Style sheet for the Contact page.
+******************************************************************************/
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    flex-flow: row wrap;
+
+}
+
+.contact_box{  
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 50px 50px;
+}
+
+#linkedIn {
+    height: 96px;
+    width: 128px; 
+}
+
+#phone_icon {
+    height: 96px;
+}
+
+.contact_page {
+    text-align: center;
+}
+
+.contact_box img:hover{
+    opacity: .5;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact_box:hover img{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.contact_box:hover p{
+    text-decoration: underline;
+    cursor: pointer;
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: #242423;
+}
+
+.page_title h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+p1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
