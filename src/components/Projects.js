@@ -23,6 +23,7 @@ function Projects(props){
                     date={project.date}
                     img={project.img}
                     tech={project.tech}
+                    link={project.page_link}
                 />
             ))}
         </div>

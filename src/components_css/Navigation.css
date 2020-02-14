@@ -7,7 +7,7 @@ ul li{
     list-style: none;
 }
 
-a{
+.navigation_bar a{
     padding-bottom: 5px;
 }
 
@@ -45,7 +45,19 @@ a{
     text-decoration: none;
 }
 
-/*Mobile screens*/
+/*A few simple mobile settings for the navigation bar*/
+@media screen and (max-width: 767px){
+    .navigation_bar{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navigation_bar a{
+        text-align: center;
+        display: block;
+    }
+
+}
 
 
 
