@@ -13,7 +13,7 @@ const data = {
         projects: [
             {
                 id: "1",
-                name: "IoT Irrigation Valve",
+                name: "IoT Irrigation Valve - Wireless Hub",
                 component: "projects",
                 date: "2017-2018",
                 img: <img src={valve} alt="valve" className="img"/>,
@@ -23,8 +23,9 @@ const data = {
                         industry irrigation valve, supplied by our collaborator, 'P&R Surge Systems'. Over the course of the year I worked to create professional 
                         design documents and reports for our sponsor, as well as design and implement the Wireless Hub portion of the project.
                 </p>,
-                tech: "Arduino IDE, MQTT, Adafruit.io, Microcontrollers, Documentation",
+                tech: <ul><li>Arduino (C/C++)</li> <li>MQTT</li> <li>Adafruit.io</li> <li>Microcontrollers</li> <li>Documentation and Reporting</li></ul>,
                 page_link: "/IoTValve"
+        
             
             },
             {
@@ -39,8 +40,9 @@ const data = {
                     The database was designed with ACID properties in mind (Atomicity, Consistency, Isolation and Durability),
                      and through the use of foreign keys, the database state is always valid.
                 </p>,
-                tech: "PHP, HTML, MySQL, PHPMyAdmin ",
+                tech: <ul><li>PHP</li> <li>HTML</li> <li>MySQL</li><li>phpMyAdmin</li></ul>,
                 page_link: "/RelationalDB"
+        
             },
             {
                 id: "3",
@@ -54,16 +56,11 @@ const data = {
                     creating a sleek and responsive interface. In addition, React.js is a
                      very sought after tool for the industry. So I thought what better way
                      to prepare for a job than to learn it and show off the end product!
-                     I am very happy with how it turned out.   </p>,
-                tech: "Javascript, CSS, HTML, React.js, Node.js",
+                     I learned a ton while doing this project, and because of it I am very interested in front-end/ 
+                     user interface development.  </p>,
+                tech: <ul><li>React.js</li><li>Node.js</li><li>Javascript</li><li>CSS</li><li>HTML</li></ul>,
                 page_link: "/CRA"
-            }
-        ],
-        contacts: [
-            {
-                email: "dorich.peter",
-                ln_link: "www.",
-                phone: ""
+               
             }
         ]
 };

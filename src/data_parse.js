@@ -15,16 +15,13 @@ function Parse(props){
         <div className="project">
           <div className="proj_column">
                 <div className="proj_info">
-                    <p>{props.name}</p>
-                    {props.desc}
+                    <h2>{props.name}</h2>
+                    <p>Tech and Concepts:</p>
                     {props.tech}
-                    <NavLink exact to={props.link}>
-                        <button>
-                                View Project Page
-                        </button>
-                    </NavLink>
-                    
-                    
+                    {props.desc}   
+                        <NavLink className="button" exact to={props.link}>
+                            View Project
+                        </NavLink>
                 </div>
             </div>
             <div className="proj_column">
