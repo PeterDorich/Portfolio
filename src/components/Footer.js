@@ -8,7 +8,7 @@ import '../components_css/Footer.css'
 
 const Footer = () => (
     <div className="Footer">
-        <p>footer-test-- Peter Dorich  </p>
+        <p>Peter Dorich      2020  </p>
     </div> 
 );
 

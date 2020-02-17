@@ -6,8 +6,11 @@ import React from 'react';
 
 function CRA(){
     return(
-        <div>
-            <h1>CRA</h1>
+        <div className="indepth">
+            <div className="indepth_header">
+            <h1>React Application</h1>
+            </div>
+            
         </div>
     );
 }

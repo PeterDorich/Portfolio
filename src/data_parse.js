@@ -7,8 +7,6 @@
 import React from 'react';
 import './components_css/Projects.css';
 import { NavLink } from 'react-router-dom';
-/*import ReactDOM from 'react-dom';*/
-
 
 function Parse(props){
     return(
@@ -19,16 +17,16 @@ function Parse(props){
                     <p>Tech and Concepts:</p>
                     {props.tech}
                     {props.desc}   
-                        <NavLink className="button" exact to={props.link}>
+                        <NavLink className="button" exact to={props.link} >
                             View Project
                         </NavLink>
                 </div>
             </div>
             <div className="proj_column">
                 <div className="proj_img">
-                <NavLink exact activeClassName='active' to={props.link}>
-                    {props.img}
-                </NavLink>
+                    <NavLink exact to={props.link}>
+                         {props.img}
+                    </NavLink>
                 </div>   
             </div>
         </div>

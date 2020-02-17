@@ -9,6 +9,10 @@
 .project_page h3{
     text-align: center;
 }
+
+.project h2{
+    text-decoration: underline;
+}
 .project_page{
     background: white;
     max-width: 100%;
@@ -34,9 +38,7 @@
     flex-direction: wrap;
     flex-basis: auto;
     flex: 1; 
-    border-bottom: solid grey;
-    
-    
+    border-bottom: solid grey;    
 }
 
 .proj_info  {
@@ -83,7 +85,6 @@
     color: white;
     text-align: center;
     text-decoration: none;
-    
 }
 
 .proj_info .button:hover{
@@ -91,7 +92,6 @@
     background-color: cornflowerblue; 
     color: white;
 }
-
 
 /*Mobile settings*/
 @media screen and (max-width: 767px){

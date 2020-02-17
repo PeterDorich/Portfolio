@@ -12,7 +12,7 @@ import pdf from '../assets/resume.pdf';
 const Navigation = () => (
     <ul className="navigation_bar">
         <li><NavLink exact activeClassName='active' to='/'>Peter Dorich</NavLink></li>
-        <li><NavLink exact activeClassName='active' to='/about'>about</NavLink></li>
+        <li><NavLink exact activeClassName='active' to='/about'>about me</NavLink></li>
         <li><a href={pdf}>resume</a></li>
         <li><NavLink exact activeClassName='active' to='/projects'>projects</NavLink></li>
         <li><NavLink exact activeClassName='active' to='./contact'>contact</NavLink></li>

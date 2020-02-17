@@ -1,0 +1,63 @@
+/**************************************************************************
+* Styling for each of the In-depth project description pages. 
+* They each share one page because I want them to appear exactly the same.
+**************************************************************************/
+.indepth{
+    font-size: 16px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.indepth_img{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    border-bottom: 2px solid grey;
+}
+.indepth_header{
+    width: 100%;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 2px solid grey;
+
+}
+
+.indepth h1{
+    text-align: center;
+}
+
+.indepth_img img {
+    padding: 20px 100px 00px 100px;
+    max-height: auto;
+    max-width: 50%;
+    object-fit: cover;
+    vertical-align: bottom;
+    align-content: center;
+}
+
+.indepth_bio{
+    text-align: center;
+    padding: 0px 270px 0px 270px;
+}
+
+.slideshow{
+    margin: 100px;
+}
+
+/*Mobile settings*/
+@media screen and (max-width: 767px){
+    .indepth_bio {
+        padding: 15px;
+    }
+
+  
+
+    .indepth_img {
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+}

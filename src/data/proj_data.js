@@ -20,13 +20,12 @@ const data = {
                 desc: <p>This is my section of a year long group senior project at OSU. 
                         The project was an open source proof of concept internet-connected irrigation valve and control suite.
                         I worked closely with the 'OPEnS' Lab (Openly Published Environmental Sensing Lab) to create a prototype from an existing 
-                        industry irrigation valve, supplied by our collaborator, 'P&R Surge Systems'. Over the course of the year I worked to create professional 
+                        industry irrigation valve, supplied by our sponsor, 'P&R Surge Systems'. Over the course of the year I worked to create professional 
                         design documents and reports for our sponsor, as well as design and implement the Wireless Hub portion of the project.
                 </p>,
-                tech: <ul><li>Arduino (C/C++)</li> <li>MQTT</li> <li>Adafruit.io</li> <li>Microcontrollers</li> <li>Documentation and Reporting</li></ul>,
-                page_link: "/IoTValve"
-        
-            
+                tech: <ul><li>Arduino (C/C++)</li> <li>MQTT</li> <li>Adafruit.io</li> <li>Microcontrollers</li> <li>LoRa (Long Range Radio)</li> <li>Documentation and Reporting</li></ul>,
+                page_link: "/IoTValve",
+                test_val: "TESTTEST"
             },
             {
                 id: "2",
@@ -35,18 +34,19 @@ const data = {
                 date: "2019",
                 img: <img src={model} alt='database_model' className='img'/>,
                 desc: <p>In one of my favorite college courses, 'Database Managemenet Systems',
-                    I was tasked with designing a relational database schema, and then implement it.
+                    I was tasked with designing a relational database schema, and implementing it.
                     The database supported 4 SQL operations, such as Create, Read, Update, and Delete.
                     The database was designed with ACID properties in mind (Atomicity, Consistency, Isolation and Durability),
                      and through the use of foreign keys, the database state is always valid.
                 </p>,
                 tech: <ul><li>PHP</li> <li>HTML</li> <li>MySQL</li><li>phpMyAdmin</li></ul>,
-                page_link: "/RelationalDB"
+                page_link: "/RelationalDB",
+                test_val: "testtest"
         
             },
             {
                 id: "3",
-                name: "Create-React-App Portfolio",
+                name: "React Portfolio",
                 component: "projects",
                 date: "2019-2020",
                 img: <img src={port} alt="website" className="img"/>,
@@ -59,7 +59,8 @@ const data = {
                      I learned a ton while doing this project, and because of it I am very interested in front-end/ 
                      user interface development.  </p>,
                 tech: <ul><li>React.js</li><li>Node.js</li><li>Javascript</li><li>CSS</li><li>HTML</li></ul>,
-                page_link: "/CRA"
+                page_link: "/ReactApp",
+                test_val: "TestTest"
                
             }
         ]

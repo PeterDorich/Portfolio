@@ -3,10 +3,18 @@
  ************************************************************************/
 
 import React from 'react';
+import '../components_css/Indepth.css';
 
 function RD(){
     return(
-        <h1>RD</h1>
+        <div className="indepth">
+           <div className="indepth_header">
+                <h1>RD</h1>
+            </div>
+
+    
+        </div>
+    
     );
 
 }
