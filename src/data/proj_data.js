@@ -20,7 +20,7 @@ const data = {
                 desc: <p>This is my section of a year long group senior project at OSU. 
                         The project was an open source proof of concept internet-connected irrigation valve and control suite.
                         I worked closely with the 'OPEnS' Lab (Openly Published Environmental Sensing Lab) to create a prototype from an existing 
-                        industry irrigation valve, supplied by our sponsor, 'P&R Surge Systems'. Over the course of the year I worked to create professional 
+                        industry irrigation valve, supplied by our collaborator, 'P&R Surge Systems'. Over the course of the year I worked to create professional 
                         design documents and reports for our sponsor, as well as design and implement the Wireless Hub portion of the project.
                 </p>,
                 tech: <ul><li>Arduino (C/C++)</li> <li>MQTT</li> <li>Adafruit.io</li> <li>Microcontrollers</li> <li>LoRa (Long Range Radio)</li> <li>Documentation and Reporting</li></ul>,

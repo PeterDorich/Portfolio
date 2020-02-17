@@ -15,8 +15,8 @@ class App extends React.Component {
       <header className="App-header">
         <Navigation />
         <Main />
-      </header>
         <Footer />
+      </header>
     </div>
   );
   }

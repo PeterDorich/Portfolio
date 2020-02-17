@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-function CRA(){
+function RA(){
     return(
         <div className="indepth">
             <div className="indepth_header">
@@ -15,4 +15,4 @@ function CRA(){
     );
 }
 
-export default CRA;
+export default RA;

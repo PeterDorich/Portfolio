@@ -10,6 +10,28 @@
     flex-flow: row wrap;
 }
 
+.indepth_body{
+    padding: 0px 300px 0px 300px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid grey;
+
+}
+
+.indepth_bio p{
+    text-align: left;
+}
+
+.github_link{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+.github_link:hover {
+    background-color: cornflowerblue;
+
+}
+
 .indepth_img{
     display: flex; 
     flex-direction: column;
@@ -17,6 +39,7 @@
     flex-flow: row wrap;
     border-bottom: 2px solid grey;
 }
+
 .indepth_header{
     width: 100%;
     padding: 20px 20px 20px 0px;
@@ -31,33 +54,46 @@
 .indepth_img img {
     padding: 20px 100px 00px 100px;
     max-height: auto;
-    max-width: 50%;
-    object-fit: cover;
+    max-width: 100%;
+    object-fit: contain;
     vertical-align: bottom;
     align-content: center;
 }
 
+#gh_l{
+    width: 25%;
+    align-content: center;
+   
+}
+
 .indepth_bio{
     text-align: center;
-    padding: 0px 270px 0px 270px;
+   
 }
-
-.slideshow{
-    margin: 100px;
-}
-
 /*Mobile settings*/
 @media screen and (max-width: 767px){
-    .indepth_bio {
+
+    .indepth_body{
         padding: 15px;
+        margin-bottom: 50px;
+      
     }
 
+    .indepth_img{
+        padding: 0px;
+        display: block;
+    }
+
+    .indepth_img img{ 
+        padding:0px;
+        margin:0px;
+    }
+
+    .github_link{
+        display: block;
+        justify-content: space-evenly;
+        align-content: center;
+    }
   
-
-    .indepth_img {
-        width: auto;
-        height: auto;
-        padding: 0;
-    }
-
+    
 }

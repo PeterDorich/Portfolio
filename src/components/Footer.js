@@ -7,9 +7,11 @@ import React from 'react';
 import '../components_css/Footer.css'
 
 const Footer = () => (
-    <div className="Footer">
+   
+   <div className="Footer">
         <p>Peter Dorich      2020  </p>
-    </div> 
+    </div>
+     
 );
 
 export default Footer;
