@@ -13,8 +13,6 @@ import gear from '../assets/arduino.png';
 import adafruit from '../assets/adafruit.png';
 import github_logo from '../assets/GitHub_Logo.png';
 
-
-
 function Valve() {
     return(
     <div className="indepth">
@@ -36,7 +34,7 @@ function Valve() {
             <div className="indepth_bio">
                 <h2>System Design:</h2>
                 <h3>The system was designed to be split into three parts. The user interface, the communications hub, and the valve-controller.</h3>
-                <p>P&R Surge Systems’ valve already cdontained a battery and a simple valve-controller for basic open and close operation. We replaced their valve-controller with our own Adafruit Feather M0 board equipped with LoRa (Long Range Radio). This microcontroller now performed the logic of opening and closing based off of soil moisture readings from the Decagon Soil Moisture Sensor. All of the operation parameters come from the user via the communications hub. The valve-controller sends the soil moisture data, temperature, battery level, and more periodically to the Hub. </p>
+                <p>P&R Surge Systems’ valve already contained a battery and a simple valve-controller for basic open and close operation. We replaced their valve-controller with our own Adafruit Feather M0 board equipped with LoRa (Long Range Radio). This microcontroller now performed the logic of opening and closing based off of soil moisture readings from the Decagon Soil Moisture Sensor. All of the operation parameters come from the user via the communications hub. The valve-controller sends the soil moisture data, temperature, battery level, and more periodically to the communications hub. </p>
                 <p>The user interface was designed to be a stand alone java app that could run on any computer. The user interface connected to Adafruit.io and retrieved the data. The user interface also had the ability to send email notifications. </p>
                 <p><b>The next section shows the communications hub information, which was my section of the project</b></p>
             </div>
@@ -52,7 +50,7 @@ function Valve() {
 
             </div>
             <div className= "indepth_img">
-                <img src={adafruit} alt="hardware used" className="img"/>
+                <img src={adafruit} alt="adafruit.io screenshot" className="img"/>
                 <p>The above is a screenshot of Adafruit.io, the cloud service. Each guage shows the data being transmitted from the valve to the Hub.</p>
             </div>
             <div className="indepth_bio">
@@ -62,7 +60,7 @@ function Valve() {
             </div>
             <div className="indepth_bio">
                 <h2>Code:</h2>
-                <h3>Take a look at the github to view my portion of the project: the communications hub</h3>
+                <h3>Take a look at the github to view my portion of the project: the communications hub!</h3>
             </div>
             <a href ="https://github.com/PeterDorich/IoTIrrigationValve"
                 target="_blank"

@@ -24,8 +24,7 @@ const data = {
                         design documents and reports for our sponsor, as well as design and implement the Wireless Hub portion of the project.
                 </p>,
                 tech: <ul><li>Arduino (C/C++)</li> <li>MQTT</li> <li>Adafruit.io</li> <li>Microcontrollers</li> <li>LoRa (Long Range Radio)</li> <li>Documentation and Reporting</li></ul>,
-                page_link: "/IoTValve",
-                test_val: "TESTTEST"
+                page_link: "/IoTValve"
             },
             {
                 id: "2",
@@ -40,9 +39,7 @@ const data = {
                      and through the use of foreign keys, the database state is always valid.
                 </p>,
                 tech: <ul><li>PHP</li> <li>HTML</li> <li>MySQL</li><li>phpMyAdmin</li></ul>,
-                page_link: "/RelationalDB",
-                test_val: "testtest"
-        
+                page_link: "/RelationalDB"
             },
             {
                 id: "3",
@@ -57,11 +54,9 @@ const data = {
                      very sought after tool for the industry. So I thought what better way
                      to prepare for a job than to learn it and show off the end product!
                      I learned a ton while doing this project, and because of it I am very interested in front-end/ 
-                     user interface development.  </p>,
-                tech: <ul><li>React.js</li><li>Node.js</li><li>Javascript</li><li>CSS</li><li>HTML</li></ul>,
-                page_link: "/ReactApp",
-                test_val: "TestTest"
-               
+                     user interface development. </p>,
+                tech: <ul><li>React.js</li><li>Javascript</li><li>CSS</li><li>HTML</li><li>Visual Studio Code</li><li>Visual Studio 2019</li></ul>,
+                page_link: "/ReactApp"
             }
         ]
 };

@@ -7,11 +7,13 @@
 import React from 'react';
 import './components_css/Projects.css';
 import { NavLink } from 'react-router-dom';
+import Fade from 'react-reveal';
 
 function Parse(props){
     return(
         <div className="project">
           <div className="proj_column">
+               <Fade left>
                 <div className="proj_info">
                     <h2>{props.name}</h2>
                     <p>Tech and Concepts:</p>
@@ -21,13 +23,16 @@ function Parse(props){
                             View Project
                         </NavLink>
                 </div>
+                </Fade>
             </div>
             <div className="proj_column">
+                <Fade right>
                 <div className="proj_img">
                     <NavLink exact to={props.link}>
                          {props.img}
                     </NavLink>
-                </div>   
+                </div> 
+                </Fade>  
             </div>
         </div>
     );
