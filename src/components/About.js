@@ -1,7 +1,7 @@
 /*************************************************************************
  * About page for some more information about me as a person.
  * 
- * 
+ * Going to use same styling as the Home_Page
  *************************************************************************/
 
  import React from 'react';

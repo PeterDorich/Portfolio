@@ -53,16 +53,6 @@ function RD(){
                         <img src={github_logo} alt="github logo link" id="gh_l" className="img"/>
                     </div>
                 </a>
-
-
-
-
-
-
-
-
-
-
             </div>    
         </div>
     );
