@@ -14,6 +14,7 @@
     flex-flow: row wrap;
 
 }
+
 .resume_link a{
     display: flex;
     font-size: 16px;
@@ -37,7 +38,6 @@
     color: white;
 }
 
-
 .column{
     flex: 50%;
 }
@@ -48,19 +48,13 @@
     max-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-/*    box-shadow: 5px 10px 10px grey; */
-
 }
 
 .container_info {
-   /* border: 1px solid; 
-    border-color: black;*/ 
     color: black;
     margin-left: 0px;
     margin-right: 10px;
-  /*  box-shadow: 5px 10px 10px grey;*/
     text-align: middle;
-    
 }
 
 .container_info h3 {

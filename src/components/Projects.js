@@ -24,7 +24,6 @@ function Projects(props){
                     img={project.img}
                     tech={project.tech}
                     link={project.page_link}
-                    test={project.test_val}
                 />
             ))}
         </div>

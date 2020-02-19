@@ -2,10 +2,27 @@
 * Style sheet for the About Page.
 ******************************************************************************/
 
-.about_container{
+.about_header{
     text-align: center;
+    border-bottom: 2px solid grey;
 }
 
-.bio{
-    border-top: 2px solid grey;
+.about_bio{
+    margin: 0px 350px 0px 350px;
+}
+
+/*Mobile settings for wider text on small screen*/
+@media screen and (max-width: 870px){
+    .about_bio{
+        padding: 15px;
+        margin: 0px;
+    }
+
+}
+/*Changed to percentage for super wide screens*/
+@media screen and (min-width: 1800px){
+    .about_bio{
+        padding: 0px 10% 0px 10%;
+    }
+
 }

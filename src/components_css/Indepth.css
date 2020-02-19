@@ -67,8 +67,8 @@
 
 .indepth_bio{
     text-align: center;
-   
 }
+
 /*Mobile settings*/
 @media screen and (max-width: 767px){
 
@@ -96,10 +96,8 @@
   
     #gh_l{
         max-width: 50%;
-        align-content: center;
-       
+        align-content: center;  
     }
-    
 }
 
 /*Tested this on a Large screen and the text was too wide*/

@@ -1,6 +1,7 @@
 /************************************************************************
  * Isolated Page to show the IoT Valve project in more depth
  * Hardcoded for now to get the style right
+ * Project pages share the "indepth" css file. 
  * 
  * GitHub Logo is free to use to link to github, and is from : 
  *      https://github.com/logos

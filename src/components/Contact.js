@@ -29,7 +29,7 @@ class Contact extends React.Component {
             <Fade left>
             <a href="tel:541-806-0658">    
                 <div className="contact_box">
-                    <p1>Phone Number</p1>
+                    <h4>Phone Number</h4>
                     <img src={Phone} id="phone_icon" alt="phone_number" />
                     <p>(541) 806-0658</p>
                 </div>
@@ -38,7 +38,7 @@ class Contact extends React.Component {
             <Fade up>
             <a href="mailto: dorich.peter@gmail.com">    
                 <div className="contact_box">
-                     <p1>Email</p1>
+                     <h4>Email</h4>
                     <img src={Mail} id="mail_icon" alt="email_icon" />
                     <p>dorich.peter@gmail.com</p>
                 </div>
@@ -50,7 +50,7 @@ class Contact extends React.Component {
                     id="lnID"
                     rel="noopener noreferrer">
                 <div className="contact_box">
-                    <p1>LinkedIn</p1>
+                    <h4>LinkedIn</h4>
                      <img src={LN} id="linkedIn" alt="LinkedIn Logo" />
                    <p>Visit my LinkedIn!</p>
                 </div>

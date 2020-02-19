@@ -7,7 +7,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../components_css/Navigation.css';
-import pdf from '../assets/resume.pdf';
+import pdf from '../assets/Resume 2020.pdf';
 
 const Navigation = () => (
     <ul className="navigation_bar">
