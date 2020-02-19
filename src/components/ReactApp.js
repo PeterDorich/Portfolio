@@ -8,6 +8,7 @@
 import React from 'react';
 import github_logo from '../assets/GitHub_Logo.png';
 import port from '../assets/portfolio.png';
+import wireframe from '../assets/wireframe.jpg';
 
 function RA(){
     return(
@@ -35,6 +36,10 @@ function RA(){
                     <p>I wanted to split up the application into separate JS files for each component. This was easier for me to keep track of components and their styling. I did the same thing with the CSS files. I have all the images for the project under one folder, “assets”, and each component and CSS file in their own respective folders as well. One piece of advice I read was to not nest your folders too much, or it will be a pain to reference things as the project develops.</p>
                     <p>Before coding I also made sure to draw up some wireframe sketches for each page, for a general idea of how it will look. I didn’t go for a particularly flashy design with big animations, as I didn’t think it was necessary for a sleek portfolio. In my opinion, some sites can get too cumbersome with big animations. I did utilize the ‘React-Reveal’ library to put some simple fade-in effects.</p>
                     <p>One feature I’d like to point out is that each project from the ‘Project’ page is dynamically rendered and read from a data file. This is where I really got to practice some functionality that React is really used for. Each project is rendered with the exact same component, but with different data. That is what React is really designed for, and where it shines. </p>
+                </div>
+                <div className="indepth_img">
+                    <img src={wireframe} alt="wireframe drawing" className="img"/>
+                    <p>My wireframe drawing for the initial projects page design. </p>
                 </div>
                 <div className="indepth_bio">
                     <h2>What I Learned:</h2>
