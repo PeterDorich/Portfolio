@@ -6,7 +6,7 @@
  *****************************************************************************/
 
 import React from 'react';
-import profile_pic from '../assets/profile_pic.jpg';
+import profile_pic from '../assets/profile_pic.png';
 import '../components_css/Home.css';
 import Fade from 'react-reveal';
 
