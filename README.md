@@ -1,4 +1,5 @@
-Clean Project repo for Portfolio
+#React Portfolio
 
---This will hold my portfolio itself, and link to other repos containing my projects
+I made this portfolio to learn the React.js framework and show off some of my projects from the last few years. 
 
+This portfolio is hosted on GitHub Pages via the gh-pages branch. This branch contains an optimized build folder.
