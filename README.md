@@ -1,4 +1,4 @@
-#React Portfolio
+# React Portfolio
 
 I made this portfolio to learn the React.js framework and show off some of my projects from the last few years. 
 
