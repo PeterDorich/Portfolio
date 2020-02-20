@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/src/static/css/main.7e3180f6.chunk.css",
+    "main.js": "/Portfolio/src/static/js/main.2a3c72f2.chunk.js",
+    "main.js.map": "/Portfolio/src/static/js/main.2a3c72f2.chunk.js.map",
+    "runtime-main.js": "/Portfolio/src/static/js/runtime-main.07e9e49e.js",
+    "runtime-main.js.map": "/Portfolio/src/static/js/runtime-main.07e9e49e.js.map",
+    "static/js/2.d16ea994.chunk.js": "/Portfolio/src/static/js/2.d16ea994.chunk.js",
+    "static/js/2.d16ea994.chunk.js.map": "/Portfolio/src/static/js/2.d16ea994.chunk.js.map",
+    "index.html": "/Portfolio/src/index.html",
+    "precache-manifest.7352898caee48b3b574c9307c680183f.js": "/Portfolio/src/precache-manifest.7352898caee48b3b574c9307c680183f.js",
+    "service-worker.js": "/Portfolio/src/service-worker.js",
+    "static/css/main.7e3180f6.chunk.css.map": "/Portfolio/src/static/css/main.7e3180f6.chunk.css.map",
+    "static/js/2.d16ea994.chunk.js.LICENSE": "/Portfolio/src/static/js/2.d16ea994.chunk.js.LICENSE",
+    "static/media/GitHub_Logo.png": "/Portfolio/src/static/media/GitHub_Logo.cefc2023.png",
+    "static/media/Resume 2020.pdf": "/Portfolio/src/static/media/Resume 2020.021bf594.pdf",
+    "static/media/Valve_System.png": "/Portfolio/src/static/media/Valve_System.95a418cb.png",
+    "static/media/adafruit.png": "/Portfolio/src/static/media/adafruit.3ad00a05.png",
+    "static/media/arduino.png": "/Portfolio/src/static/media/arduino.744c3aa1.png",
+    "static/media/bike_rental.png": "/Portfolio/src/static/media/bike_rental.b89db065.png",
+    "static/media/db_model.png": "/Portfolio/src/static/media/db_model.355e3a92.png",
+    "static/media/p&r_valve.png": "/Portfolio/src/static/media/p&r_valve.26c1d842.png",
+    "static/media/portfolio.png": "/Portfolio/src/static/media/portfolio.f814d138.png",
+    "static/media/profile_pic.jpg": "/Portfolio/src/static/media/profile_pic.ff55b311.jpg",
+    "static/media/wireframe.jpg": "/Portfolio/src/static/media/wireframe.26894e78.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07e9e49e.js",
+    "static/js/2.d16ea994.chunk.js",
+    "static/css/main.7e3180f6.chunk.css",
+    "static/js/main.2a3c72f2.chunk.js"
+  ]
+}
