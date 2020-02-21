@@ -1,7 +1,7 @@
 /*************************************************************************
  * About page for some more information about me as a person.
  * 
- * Going to use same styling as the Home_Page
+ * I plan to include a picture of the Tree Farm soon once I can take it
  *************************************************************************/
 
  import React from 'react';

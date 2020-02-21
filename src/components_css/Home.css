@@ -63,3 +63,12 @@
 .container_info h4 {
    padding: 10px 10px 10px 10px;
 }
+
+/*After publishing, profile pic half loads on iphone.
+    --going to try to add a margin to it*/
+@media screen and (max-width: 870px){
+    .Home{
+        margin-bottom: 50px;
+    }
+
+}
