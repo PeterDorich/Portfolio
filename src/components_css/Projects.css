@@ -112,3 +112,11 @@
         border-bottom: solid;
     }
 }
+
+/*Image size still too large for Large screens, loading slow*/
+@media screen and (min-width: 1800px){
+    .proj_img {
+        height: auto;
+        max-width: 75%;
+    }
+}

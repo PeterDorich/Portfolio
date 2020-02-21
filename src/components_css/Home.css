@@ -72,3 +72,11 @@
     }
 
 }
+
+/*Image size still too large for Large screens, loading slow*/
+@media screen and (min-width: 1800px){
+    #profile_pic {
+        height: auto;
+        max-width: 75%;
+    }
+}
