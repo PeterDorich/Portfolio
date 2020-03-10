@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba0d10396f2be21491e8992612532435",
+    "revision": "f311c08c18e8672036b7711bf7e3760f",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "ae1e72acc5d40add21b7",
+    "revision": "255bf01fb523c9414c49",
     "url": "/Portfolio/static/css/main.78fe9f67.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.d16ea994.chunk.js.LICENSE"
   },
   {
-    "revision": "ae1e72acc5d40add21b7",
-    "url": "/Portfolio/static/js/main.f2f8d110.chunk.js"
+    "revision": "255bf01fb523c9414c49",
+    "url": "/Portfolio/static/js/main.a682afd1.chunk.js"
   },
   {
     "revision": "38e9353468597077cd3e",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/GitHub_Logo.cefc2023.png"
   },
   {
-    "revision": "021bf5945a7dcba6f3604212411ba26e",
-    "url": "/Portfolio/static/media/Resume 2020.021bf594.pdf"
+    "revision": "3153f87f75319359dc4fee3646ab1ea6",
+    "url": "/Portfolio/static/media/Resume.3153f87f.pdf"
   },
   {
     "revision": "95a418cb6b4c24c6ea838fe701362ffb",
